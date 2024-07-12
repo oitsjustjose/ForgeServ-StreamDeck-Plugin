@@ -1,0 +1,9 @@
+{
+  "Description": "Use this to create your own plugin",
+  "Name": "Stream Deck Template",
+  "Category": "Utilities",
+  "net.forgeserv.api.action": {
+    "Name": "ForgeServ API Status",
+    "Tooltip": "Made by oitsjustjose 💚"
+  }
+}

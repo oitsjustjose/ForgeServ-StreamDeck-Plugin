@@ -1,10 +1,11 @@
 .DS_Store
 .idea/**
 /src/DistributionTool
-com.elgato.template.streamDeckPlugin
+net.forgeserv.api.streamDeckPlugin
 .vscode/**
 package.json
 package-lock.json
 .history
 __exclude
 .editorconfig
+DistributionTool.exe

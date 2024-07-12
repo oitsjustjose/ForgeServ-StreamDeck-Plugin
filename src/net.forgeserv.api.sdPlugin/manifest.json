@@ -1,0 +1,49 @@
+{
+  "Actions": [
+    {
+      "Icon": "actionIcon",
+      "Name": "Server Status",
+      "States": [
+        {
+          "Image": "actionIcon"
+        }
+      ],
+      "PropertyInspectorPath": "actions/api/property-inspector/inspector.html",
+      "SupporedInMultiActions": false,
+      "Tooltip": "Gets the Player Count on a given server returned by the API",
+      "UUID": "net.forgeserv.api.action",
+      "UserTitleEnabled": false,
+      "Controllers": ["Keypad", "Encoder"],
+      "Encoder": {
+        "layout": "$A1",
+        "TriggerDescription": {
+          "Rotate": "Scrolls between servers",
+          "Push": "(Does Nothing)",
+          "Touch": "(Does Nothing)",
+          "LongTouch": "(Does Nothing)"
+        }
+      }
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "oitsjustjose",
+  "CodePath": "app.html",
+  "Description": "Gets the Player Count on a given server returned by the API",
+  "Name": "ForgeServ API Server Status",
+  "Icon": "pluginIcon",
+  "URL": "https://oitsjustjose.com",
+  "Version": "1.0.0",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "4.1"
+  }
+}
