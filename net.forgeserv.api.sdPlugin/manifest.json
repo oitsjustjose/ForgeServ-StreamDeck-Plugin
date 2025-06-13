@@ -1,0 +1,54 @@
+{
+  "Actions": [
+    {
+      "Controllers": ["Encoder"],
+      "Encoder": {
+        "layout": "$A1",
+        "TriggerDescription": {
+          "LongTouch": "(Does Nothing)",
+          "Push": "(Does Nothing)",
+          "Rotate": "Scrolls between servers",
+          "Touch": "(Does Nothing)"
+        }
+      },
+      "Icon": "imgs/actions/actionIcon",
+      "Name": "Server Status",
+      "PropertyInspectorPath": "ui/select-server.html",
+      "States": [
+        {
+          "Image": "imgs/actions/actionIcon",
+          "TitleAlignment": "middle"
+        }
+      ],
+      "Tooltip": "Gets the Player Count on a given server returned by the API",
+      "UUID": "net.forgeserv.api.action"
+    }
+  ],
+  "Author": "oitsjustjose",
+  "Category": "ForgeServ API Status",
+  "CategoryIcon": "imgs/plugin/pluginIcon",
+  "CodePath": "bin/plugin.js",
+  "Description": "A ForgeServ server status tool",
+  "Icon": "imgs/plugin/pluginIcon",
+  "Name": "ForgeServ API Status",
+  "Nodejs": {
+    "Debug": "enabled",
+    "Version": "20"
+  },
+  "OS": [
+    {
+      "MinimumVersion": "12",
+      "Platform": "mac"
+    },
+    {
+      "MinimumVersion": "10",
+      "Platform": "windows"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "6.4"
+  },
+  "UUID": "net.forgeserv.api",
+  "Version": "0.1.0.0"
+}

@@ -1,11 +1,6 @@
-.DS_Store
-.idea/**
-/src/DistributionTool
-net.forgeserv.api.streamDeckPlugin
-.vscode/**
-package.json
-package-lock.json
-.history
-__exclude
-.editorconfig
-DistributionTool.exe
+# Node.js
+node_modules/
+
+# Stream Deck files
+*.sdPlugin/bin
+*.sdPlugin/logs
